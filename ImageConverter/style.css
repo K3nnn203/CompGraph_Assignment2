@@ -1,0 +1,87 @@
+.container{
+    background-color: #DEDEDE;
+    width: 30vw;
+    margin: 20vh auto 0 auto;
+    padding: 5vh 2vw;
+}
+
+.hidden{
+    display: none;
+}
+
+#canvasSection{
+    background-color: #DEDEDE;
+    width: 40vw;
+    margin: 20vh auto 0 auto;
+    padding: 3vh 2vw;
+}
+
+.canvas-container{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 3vh 1vw;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    justify-content: space-between;
+}
+
+canvas{
+    margin: auto 1vw;
+}
+
+
+.inputs{
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gray;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 3vh 1vw;
+}
+
+input{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 6px;
+    margin-bottom: 1vh;
+}
+
+select{
+    border-radius: 5px;
+    padding: 6px;
+    background-color: #DEDEDE;
+}
+
+option{
+    background-color: rgb(32, 32, 32);
+    padding: 1vh 1vw;
+    color: white;
+}
+
+label{
+    font-weight: bold;
+    margin: 1vh auto 1vh 0;
+}
+
+#apply{
+    border-radius: 5px;
+    border: none;
+    margin-top: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    color: white;
+    background-color: rgb(74, 74, 247);
+}
+
+#goBack{
+    border-radius: 5px;
+    border: none;
+    margin-top: 3vh;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    width: 7vw;
+    color: white;
+    font-size: 24px;
+    background-color: rgb(74, 74, 247);
+}
